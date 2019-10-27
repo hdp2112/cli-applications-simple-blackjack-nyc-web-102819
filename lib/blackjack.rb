@@ -6,8 +6,8 @@ def deal_card
   rand(1..11)
 end
 
-def display_card_total
-  puts rand(1..11)
+def display_card_total(number)
+  puts rand(number)
 end
 
 def prompt_user
