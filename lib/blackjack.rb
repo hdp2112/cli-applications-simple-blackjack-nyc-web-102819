@@ -6,8 +6,8 @@ def deal_card
   rand(12)
 end
 
-def display_card_total(total)
-  
+def display_card_total
+  total = rand(12)
 end
 
 def prompt_user
