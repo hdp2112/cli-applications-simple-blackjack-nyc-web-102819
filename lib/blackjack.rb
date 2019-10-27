@@ -32,6 +32,9 @@ def hit?
   correct_inputs = ['h', 's']
   prompt_user
   user_input = get_user_input
+  
+  until correct_inputs.include?(user_input)
+    invalid_command
 end
 
 def invalid_command
