@@ -29,6 +29,7 @@ def initial_round
 end
 
 def hit?
+  correct_inputs = ['h', 's']
   prompt_user
   user_input = get_user_input
 end
